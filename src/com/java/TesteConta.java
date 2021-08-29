@@ -6,7 +6,6 @@ public class TesteConta {
 		//new: gerar um novo objeto em memória
 		Conta contaCorrente = new Conta();
 		Conta contaPoupanca = new Conta();
-		Conta contaInvestimento = new Conta();
 		
 		contaCorrente.numero = 11;
 		contaCorrente.saldo = 20.50;
@@ -29,8 +28,6 @@ public class TesteConta {
 		contaPoupanca.cliente.cpf = 12345566;
 		contaPoupanca.cliente.idade = 40;
 		
-		contaInvestimento.numero = 33;
-		contaInvestimento.saldo = 100.50;
 	}
 
 }
